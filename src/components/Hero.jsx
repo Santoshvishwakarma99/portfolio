@@ -35,7 +35,7 @@ const Hero = () => {
         <div className="hero-actions">
           <button
             className="btn btn-primary"
-            onClick={openResume}
+            onClick={() => window.open("/resume.pdf", "_blank")}
           >
             View Resume
           </button>
